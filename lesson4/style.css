@@ -85,3 +85,57 @@
 .search-result {
     margin: 5px;
 }
+
+.stretch-button {
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 15px;
+    margin-top: 10px;
+    transition: padding 0.5s;
+}
+
+.stretch-button:hover {
+    padding: 20px 35px;
+    text-align: center;
+}
+
+.shadow-button {
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);;
+    padding: 15px;
+    margin-top: 10px;
+    display: block;
+}
+
+.shadow-button:active {
+    margin-top: 15px;
+    margin-left: 5px;
+    box-shadow: none;
+}
+
+.number-button {
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    transition: padding 0.15s,
+      margin 0.15s;
+}
+
+.number-button:hover {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
