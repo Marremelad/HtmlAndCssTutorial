@@ -1,0 +1,26 @@
+button {
+    cursor: pointer;
+}
+
+.div-one {
+    height: 60px;
+    width: 258px;
+    border: 1px solid;
+    margin-top: 12px;
+}
+
+.back-button {
+    padding: 10px;
+    margin: 10px;
+   
+}
+
+.next-button {
+    padding: 10px;
+    margin: 10px;
+  
+}
+
+.search-result {
+    margin: 5px;
+}
