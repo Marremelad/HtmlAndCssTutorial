@@ -5,6 +5,10 @@
     font-family: verdana;
 }
 
+button {
+    cursor: pointer;
+}
+
 .div-one {
     width: 300px;
     padding: 8px;
