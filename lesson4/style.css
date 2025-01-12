@@ -2,22 +2,3 @@
 
 
 
-.number-button {
-    background-color: green;
-    color: white;
-    font-size: 20px;
-    border: none;
-    padding: 10px;
-    margin-top: 15px;
-    margin-left: 10px;
-    margin-right: 10px;
-    transition: padding 0.15s,
-      margin 0.15s;
-}
-
-.number-button:hover {
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: 0px;
-    margin-right: 0px;
-}
