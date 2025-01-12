@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: arial;
+}
+
+.biggest-deals {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px;
+    line-height: 27px;
+    margin-bottom: 60px;
+}
+
+.sales-end {
+    color: red;
+    font-size: 17px;
+    font-weight: lighter;
+    font-style: italic;
+}
