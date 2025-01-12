@@ -119,6 +119,19 @@ button {
     padding: 7px 20px;
 }
 
+.get-started-button:active {
+    margin-top: 2px;
+}
+
+.div-three:has(.get-started-button:active) {
+    color: lightblue;
+    padding-bottom: 6px;
+}
+
+/* .div-three:has(.get-started-button:active) .course-level {
+    color: inherit;
+} */
+
 .div-four {
     padding: 8px;
     font-size: 14px;
