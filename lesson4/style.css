@@ -1,22 +1,6 @@
 
 
-.shadow-button {
-    background-color: green;
-    color: white;
-    font-size: 20px;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);;
-    padding: 15px;
-    margin-top: 10px;
-    display: block;
-}
 
-.shadow-button:active {
-    margin-top: 15px;
-    margin-left: 5px;
-    box-shadow: none;
-}
 
 .number-button {
     background-color: green;
