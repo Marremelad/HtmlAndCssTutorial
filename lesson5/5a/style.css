@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.tahoma-font {
+    font-family: tahoma;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px;
+    margin-bottom: 60px;    
+}
