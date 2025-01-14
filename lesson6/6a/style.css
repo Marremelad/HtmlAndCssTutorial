@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", serif;
+}
+
+.main {
+    width: 19rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.title {
+    font-size: 2.1875rem;
+    font-weight: bold;
+    margin-bottom: 0.8rem;
+}
+
+.call-to-action {
+    color: black;
+}
