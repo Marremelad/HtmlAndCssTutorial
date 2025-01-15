@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(100, 100, 100);
+}
+
+button {
+    cursor: pointer;
+}
+
+.form {
+    margin: 10px;
+}
+
+.form label {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.form input {
+    display: block;
+    font-size: 1rem;
+    color: black;
+    height: 30px;
+    width: 400px;
+    padding: 5px 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 5px;
+}
+
+.form p {
+    font-size: 1rem;
+    margin-top: 15px;
+}
+
+.agree-button {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 100px;
+    width: 300px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-top: 15px;
+    transition: opacity 0.2s;
+}
+
+.agree-button:hover {
+    opacity: 0.8;
+}
+
+.agree-button:active {
+    margin-top: 20px;
+    opacity: 1;
+    box-shadow: none;
+}
