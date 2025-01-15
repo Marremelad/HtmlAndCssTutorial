@@ -4,7 +4,11 @@
     margin: 0;
 }
 
-/* .image-container {
+img {
+    margin: 10px;
+}
+
+.image-container {
     border: 2px solid blue;
     background-color: red;
     width: 50px;
@@ -31,11 +35,9 @@
     width: 300px;
     margin: 100px;
     background-color: cornflowerblue;
-} */
-
-img {
-    margin: 10px;
 }
+
+
 
 
 
