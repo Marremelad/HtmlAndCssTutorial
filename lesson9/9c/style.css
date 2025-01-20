@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+.rate-service-div {
+    border: 1px solid gray;
+    width: 300px;
+    padding: 15px;
+    margin: 10px;
+}
+
+.rate-service-div p {
+    margin-bottom: 10px;
+}
+
+.rate-service-div button {
+    padding: 0 5px;
+}
