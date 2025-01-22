@@ -2,4 +2,77 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: Arial;
 }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        width: 200px;
+        border-radius: 10px;
+        margin: 10px;
+        box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.9);
+    }
+
+        .picture-frame {
+            height: 60%;
+            width: 100%;
+        }
+
+            .profile-picture {
+                height: 100%;
+                width: 100%;
+                border-top-right-radius: 10px;
+                border-top-left-radius: 10px;
+                object-fit: cover;
+            }
+
+        .profile-information-frame {
+            /* display: flex; */
+            /* flex-direction: column; */
+            /* flex-grow: 1; */
+            padding: 10px;
+        }
+
+            .user-name {
+                font-weight: 700;
+                margin-bottom: 5px;
+            }
+
+            .mutual-friends-frame {
+                margin-bottom: 10px;
+            }
+                .mutual-friends-picture-frame {
+                    display: inline-block;
+                    height: 30px;
+                    width: 30px;
+                    vertical-align: middle;
+                    margin-right: 5px;
+                }
+                    .mutual-friends-picture {
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+                        border-radius: 15px;
+                    }
+
+                .mutual-friends-text {
+                    display: inline-block;
+                }
+
+            .add-friend-button {
+                background-color: cornflowerblue;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                font-size: 1rem;
+                font-weight: bold;
+                padding: 7px 20px;
+            }
