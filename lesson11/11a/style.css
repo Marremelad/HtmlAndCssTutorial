@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 200px 75px;
+}
+
+.blue {
+    background-color: cornflowerblue;
+}
+
+.green {
+    background-color: green;
+}
