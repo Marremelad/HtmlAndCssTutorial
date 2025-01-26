@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    height: 50px;
+}
+
+.left {
+    background-color: cornflowerblue;
+    width: 100px;
+}
+
+.right {
+    background-color: green;
+    width: 200px;
+}
+
+.row-two {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-two-item {
+    background-color: black;
+    color: white;
+}
