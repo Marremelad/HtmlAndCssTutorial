@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    height: 50px;
+    border: solid 1px gray;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container div {
+    background-color: cornflowerblue;
+}
