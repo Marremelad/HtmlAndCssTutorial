@@ -41,15 +41,15 @@
 }
 
 .profile-picture {
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 40px;
     border-radius: 20px;
     object-fit: cover;
 }
 
 .handle {
     font-size: 14px;
-    font-weight: 700;
+    font-weight: bold;
     margin-left: 10px;
 }
 
